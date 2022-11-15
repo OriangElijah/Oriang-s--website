@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PERSONAL WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url(images/desktop.jpg);
+            background-repeat: no-repeat;
+            background-color: aquamarine;
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fi-times" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<div class="text-box">
+    <hi>Personal Webiste</hi>
+    <p>This is my first official personal website. I just need to learn HTML, CSS,<br>Javascript and am good to go
+    </p>
+    <a href="" class="hero-btn">Visit my websitetp know more</a>
+</div>
+
+</section>
+
+<!------course----->
+
+<section class="course">
+    <h1>Courses am pursing in Bugema University</h1>
+    <p>Funds of Web Development</p>
+    <p>Programming Using C</p>
+    <p>System Analysis</p>
+    <p>Internet Working and cable practise</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Things i love about Bugema University</h3>
+            <p>Bugema is a christian University</p>
+            <p>Bugema has a good eductional system</p>
+            <p>Bugema has well trained lecturers</p>
+        </div>
+        <div class="course-col">
+            <h4>Programs offered in Bugema University</h4>
+            <p>Intermediate</p>
+            <p>Post graduate</p>
+            <p>Graduate</p>
+
+        
+
+        </div>   
+        </div>
+
+    </div>
+</section>
+
+<!-------- campus ----->
+
+<section class="campus">
+    <h1>Bugema Universityis a global campus</h1>
+    <p>It has upto five different campuses located widely across the country</p>
+
+    <div class="row">
+        <div class="campus-col">
+            <img src="images/bugema gayaza.jpg" alt="This is the university logo">
+            <div class="layer">
+                <h3>GAYAZA</h3>
+
+        <div class="campus-col">
+            <img src="images/bugema.jpg" alt="This is the university logo">
+            <div class="layer">
+                <h3>KAMPALA</h3>
+
+        <div class="campus-col">
+            <img src="images/bugema.jpg" alt="This is the university logo">
+            <div class="layer">
+                <h3>ARUA</h3>       
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-------Facilities--------->
+
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Bugema has so many facilities</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="images/soccer.jpg">
+            <img src="images/soccer2.png">
+            <h3>Something about me</h3>
+            <p>Am SDA</p>
+            <p>Am an Acholi, from south sudan</p>
+            <P>Am Man Utd fan</P>
+            <img src="images/FB_IMG.jpg">
+           
+
+        </div>
+
+    </div>
+
+</section>
+
+ <!------- testimonials ---------->
+
+<section class="testimonials">
+    <h1>What many students say about Bugema University</h1>
+    <p>"A good fearing university"</p>
+    <p>"Has a good eductional system"</p>
+    <p>"students come from different walks of life"</p>
+
+    <div class="row">
+        <div class="testimonals-col">
+            <img src="images/grad.jpg">
+            <div>
+                <p>This a photo of a Bugema university graduat</p>
+                <h3>Lucy Gildo</h3>
+            </div>
+        </div>
+    <div class="testimonals-col">
+            <img src="images/grad2.jpg">
+            <div>
+                <p>This a photo of me and my friends attending a Bugema university graduation</p>
+                <h3>Group photo</h3>
+    </div>
+
+</section>
+
+<!---- ----- Call To Action ------>
+
+<section class="cta">
+    <h1>Enroll For The Various Online Courses<br>Anywhere From The World</h1>
+    <a href="class=hero-btn">CONTACT US</a>
+</section>
+
+
+<!---- ----- Call To Action ------>
+
+<section class="footer">
+    <h4>About Bugema</h4>
+    <p>Bugema university is a Chartered Seventh Day Adventist Institution of Higher Learning.<br>located 32 kilometers north of Kampala on Gayaza-Zirobwe Road.</p>
+</section>
+
+
+    
+<!----------JavaScript for Toggle Menu--------->
+<script src="main.js"></script>
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+</body>
+<center>
+    <video width="600" height="400" autoplay unmuted controls>
+    <source src="video/sing.mp4" type="video/mp4">
+    </video>
+</center>
+<audio controls>
+    <source src="audio/A Week Away - Awesome God ,God Only Knows - Bailee Madison x Kevin Quinn.mp3" type="audio/mp3">
+</audio>
+</html>
